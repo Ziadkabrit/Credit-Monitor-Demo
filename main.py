@@ -1103,7 +1103,7 @@ HTML_TEMPLATE = """
             <div class="creator-detail"><div class="creator-detail-label">{{ tr('Role') }}</div><div class="creator-detail-value">{{ tr('Concept, interface design, development and systems integration') }}</div></div>
             <div class="creator-detail"><div class="creator-detail-label">{{ tr('Developer') }}</div><div class="creator-detail-value">Ziad Kabrit</div></div>
             <div class="creator-detail"><div class="creator-detail-label">{{ tr('Email') }}</div><div class="creator-detail-value"><a href="mailto:Ziad.kb@hotmail.com">Ziad.kb@hotmail.com</a></div></div>
-            <div class="creator-detail"><div class="creator-detail-label">{{ tr('Phone') }}</div><div class="creator-detail-value" dir="ltr" style="direction:ltr;text-align:left"><a href="tel:+9647510691787" dir="ltr">+964 751 069 1787</a></div></div>
+            <div class="creator-detail"><div class="creator-detail-label">{{ tr('Phone') }}</div><div class="creator-detail-value" style="text-align:right"><bdi dir="ltr"><a href="tel:+9647510691787" dir="ltr">+964 751 069 1787</a></bdi></div></div>
             <div class="creator-info-meta" dir="ltr">Powered by Ziad Kabrit / BlOO &nbsp;•&nbsp; Version V1.0.15 &nbsp; © 2026 - DEMO BILINGUAL &nbsp;•</div>
             <button type="button" class="btn btn-brand w-100 creator-close" id="creatorInfoClose"><i class="fas fa-xmark me-2"></i>{{ tr('Close') }}</button>
         </div>
