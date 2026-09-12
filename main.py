@@ -89,7 +89,7 @@ AR_TRANSLATIONS = {
     "Enter Apartment Label or Meter ID": "أدخل رمز الشقة أو رقم العداد",
     "Close & Return": "إغلاق وعودة",
     "Powered by": "تطوير",
-    "Credit Monitor • Solution Information": "مراقب الرصيد • معلومات الحل",
+    "Credit Monitor • System solution information": "مراقب الرصيد • معلومات عن النظام",
     "Nobel Towers Residences": "مجمع نوبل تاورز",
     "Company": "الشركة",
     "Solution": "الحل",
@@ -1087,13 +1087,13 @@ HTML_TEMPLATE = """
 </div>
 {% endif %}
 
-<footer class="app-footer">{{ tr('Powered by') }} <a href="#" class="creator-link" id="creatorInfoLink" aria-label="About Ziad Kabrit">Ziad Kabrit</a> &nbsp;&nbsp; __VERSION__</footer>
+<footer class="app-footer" dir="ltr">Powered by <a href="#" class="creator-link" id="creatorInfoLink" aria-label="About Ziad Kabrit">Ziad Kabrit</a> / BlOO &nbsp;•&nbsp; Version V1.0.15 &nbsp; © 2026 - DEMO BILINGUAL &nbsp;•</footer>
 
 <div class="modal-backdrop-custom" id="creatorInfoModal" role="dialog" aria-modal="true" aria-labelledby="creatorInfoTitle">
     <div class="creator-info-card">
         <div class="creator-info-head">
             <div class="creator-info-title" id="creatorInfoTitle">Ziad Kabrit</div>
-            <div class="small mt-1" style="color:#d8e3ef">{{ tr('Credit Monitor • Solution Information') }}</div>
+            <div class="small mt-1" style="color:#d8e3ef">{{ tr('Credit Monitor • System solution information') }}</div>
         </div>
         <div class="creator-info-body">
             <h3>{{ tr('Nobel Towers Residences') }}</h3>
@@ -1103,8 +1103,8 @@ HTML_TEMPLATE = """
             <div class="creator-detail"><div class="creator-detail-label">{{ tr('Role') }}</div><div class="creator-detail-value">{{ tr('Concept, interface design, development and systems integration') }}</div></div>
             <div class="creator-detail"><div class="creator-detail-label">{{ tr('Developer') }}</div><div class="creator-detail-value">Ziad Kabrit</div></div>
             <div class="creator-detail"><div class="creator-detail-label">{{ tr('Email') }}</div><div class="creator-detail-value"><a href="mailto:Ziad.kb@hotmail.com">Ziad.kb@hotmail.com</a></div></div>
-            <div class="creator-detail"><div class="creator-detail-label">{{ tr('Phone') }}</div><div class="creator-detail-value"><a href="tel:+9647510691787">+964 751 069 1787</a></div></div>
-            <div class="creator-info-meta">{{ tr('Version') }} __VERSION__ &nbsp;•&nbsp; © 2026 Ziad Kabrit / BlOO</div>
+            <div class="creator-detail"><div class="creator-detail-label">{{ tr('Phone') }}</div><div class="creator-detail-value" dir="ltr" style="direction:ltr;text-align:left"><a href="tel:+9647510691787" dir="ltr">+964 751 069 1787</a></div></div>
+            <div class="creator-info-meta" dir="ltr">Powered by Ziad Kabrit / BlOO &nbsp;•&nbsp; Version V1.0.15 &nbsp; © 2026 - DEMO BILINGUAL &nbsp;•</div>
             <button type="button" class="btn btn-brand w-100 creator-close" id="creatorInfoClose"><i class="fas fa-xmark me-2"></i>{{ tr('Close') }}</button>
         </div>
     </div>
